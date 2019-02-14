@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64528" started-at="2019-02-14T09:47:53Z" finished-at="2019-02-14T09:48:58Z">
+    <groups>
+    </groups>
+    <test name="TC1" duration-ms="64528" started-at="2019-02-14T09:47:53Z" finished-at="2019-02-14T09:48:58Z">
+      <class name="scripts.TC1">
+        <test-method status="PASS" signature="setParameters(java.lang.String)[pri:0, instance:scripts.TC1@42d3bd8b]" name="setParameters" is-config="true" duration-ms="31" started-at="2019-02-14T09:47:53Z" finished-at="2019-02-14T09:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:scripts.TC1@42d3bd8b]" name="setup" is-config="true" duration-ms="17161" started-at="2019-02-14T09:47:53Z" finished-at="2019-02-14T09:48:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://automationpractice.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:scripts.TC1@42d3bd8b]" name="tc1" duration-ms="46138" started-at="2019-02-14T09:48:11Z" finished-at="2019-02-14T09:48:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aniljain1982@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts.TC1@42d3bd8b]" name="tearDown" is-config="true" duration-ms="1163" started-at="2019-02-14T09:48:57Z" finished-at="2019-02-14T09:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts.TC1 -->
+    </test> <!-- TC1 -->
+  </suite> <!-- Suite -->
+</testng-results>

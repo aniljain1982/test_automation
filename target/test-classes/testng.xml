@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://automationpractice.com"/>
+    <parameter name="username" value="aniljain1982@gmail.com" />
+    <parameter name="password" value="Hello@123" />
+  <test name="TC1" enabled="true">
+      <classes>
+          <class name="scripts.TC1"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,9 @@
+config\LaunchBrowser.class
+app1\ProductPage.class
+config\BaseTest.class
+config\PageObject.class
+app1\LoginPage.class
+app1\TshirtPage.class
+app1\CartSummary.class
+app1\AddToCartPage.class
+app1\HomePage.class
